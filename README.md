@@ -6,7 +6,7 @@ Dump idbfs data from IndexedDB to a JSON file, then decode it into files. Create
 
 Drop the contents of dumpidbfs.js into the browser console, then run the dumpIdbfs function that now exists in global scope. For Unity games, `dumpIdbfs()` should work. For Godot, it might be something like `dumpIdbfs("/userfs")`. You should be prompted to download a JSON file if all goes well.
 
-Drop that JSON file beside a built version of idbfs-decoder and call it with the filename as an argument, something like `idbfs-decoder idbfs.json`. You should end up with a folder full of the files originally from idbfs.
+Drop that JSON file beside a built version of idbfs-decoder and call it with the filename as an argument, something like `idbfs-decoder idbfs.json`. You should end up with a folder full of the files originally from idbfs. Dumps done with the `DumpIdbfs` console command in CommonCore (available from 6.x onward) should work as well.
 
 # License
 
